@@ -1,6 +1,6 @@
 from hashlib import md5
 from sqs import extract_entries, poll
-from app.config import FIELDS_TO_HASH
+from config import FIELDS_TO_HASH
 from postgres import entry_to_tuple, insert_postgres, change_column_type
 from time import sleep
 
