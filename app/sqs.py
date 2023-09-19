@@ -1,7 +1,7 @@
 import boto3
 import os
 import json
-from app.config import ENDPOINT_URL, REGION, QUEUE_URL
+from config import ENDPOINT_URL, REGION, QUEUE_URL
 
 
 # Set up environment variables for dummy AWS credentials
