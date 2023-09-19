@@ -1,6 +1,6 @@
 import psycopg2
 from psycopg2 import extras
-from app.config import DBNAME, DBUSER, PASSWORD
+from config import DBNAME, DBUSER, PASSWORD
 
 
 insert_query = '''
