@@ -78,7 +78,7 @@ Impossible in case of using a hash function.
 3. Optimize data processing and improve error preventing logic by collating the tables schemas with the actual data coming from the SQS queue
 4. Consider using encryption algorithms instead of hashing ones in order to provide revirsibility of the masked data, in case if needed.
 5. Consider using another hash funstion to reduce probability of collisions.
-6. Add a colab notebook for a more convenient demonstration
+6. Add a jupyter notebook for a more convenient demonstration
 
 # Deployment
 To deploy this application we could use a container orchestration server like Kubernetes or run on our own dedicated server integrating it to the Airflow pipeline and using it for monitoring some databases.
