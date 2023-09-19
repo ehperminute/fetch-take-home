@@ -10,7 +10,8 @@ record to a Postgres database that is made available via a custom postgres image
 has the tables pre created.
  target table's DDL is:
 -- Creation of user_logins table  
-CREATE TABLE IF NOT EXISTS user_logins(  
+CREATE TABLE IF NOT EXISTS user_logins
+  (  
     user_id varchar(128),  
     device_type varchar(32),  
     masked_ip varchar(256),  
@@ -18,7 +19,7 @@ CREATE TABLE IF NOT EXISTS user_logins(
     locale varchar(32),  
     app_version integer,  
     create_date date  
-);  
+  );  
 
 # Project setup
 # Requirements:
