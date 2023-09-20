@@ -52,6 +52,10 @@ awslocal sqs receive-message --queue-url http://localhost:4566/000000000000/logi
 ```
 psql -d postgres -U postgres -p 5432 -h localhost -W
 ```
+Postgres creds:
+a. Password: postgres
+b. Username: postgres
+
 - Then, run the SQL SELECT statement in the psql console:
 
 ```sql
