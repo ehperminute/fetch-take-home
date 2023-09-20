@@ -41,8 +41,9 @@ pip install psycopg2
 install docker: [docker](https://docs.docker.com/get-docker/)   
 
 install psql: [psql](https://www.postgresql.org/download/)    
-
+  
 3. Set up the local development environment using Docker Compose:
+run this command from the directory containig compose.yaml, you can find an example of in the project root directory
 ```
 docker compose up
 ```
