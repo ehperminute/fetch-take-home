@@ -80,7 +80,7 @@ Impossible in case of using a hash function.
 1. Widen functionality to make it more omnipurposal and useful for other tables or databases
 2. Add error handling and stability and performance tests
 3. Optimize data processing and improve error preventing logic by collating the tables schemas with the actual data coming from the SQS queue
-4. Consider using encryption algorithms instead of hashing ones in order to provide revirsibility of the masked data, in case if needed.
+4. Consider using encryption algorithms instead of hashing ones in order to provide reversibility of the masked data, in case if needed.
 5. Consider using another hash funstion to reduce probability of collisions.
 6. Add a jupyter notebook for a more convenient demonstration
 
