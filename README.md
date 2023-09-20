@@ -35,8 +35,11 @@ CREATE TABLE IF NOT EXISTS user_logins
 
 2. Install the required Python packages using pip:
 ```
-pip install -r requirements.txt
+pip install boto3
+pip install psycopg2
 ```
+install docker [a link](https://docs.docker.com/get-docker/)
+install psql [a link](https://www.postgresql.org/download/)
 3. Set up the local development environment using Docker Compose:
 ```
 docker compose up
