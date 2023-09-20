@@ -66,7 +66,7 @@ SELECT * FROM user_logins;
 To run the ETL pipeline, execute the following command from the root of the project directory:
 
 ```
-python -m app.main
+python -m main.py
 ```
 This command will run mainloop within which the app polls the SQS queue, reads and process the messages to extract and masks the necessary data and insert the records into the PostgreSQL database after.
 # Assimptions:
