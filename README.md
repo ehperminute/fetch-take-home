@@ -52,7 +52,7 @@ awslocal sqs receive-message --queue-url http://localhost:4566/000000000000/logi
 ```
 psql -d postgres -U postgres -p 5432 -h localhost -W
 ```
-Postgres creds:
+Postgres creds:  
 a. Password: postgres
 b. Username: postgres
 
