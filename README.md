@@ -63,7 +63,7 @@ SELECT * FROM user_logins;
 ```
 
 # Running the ETL Pipeline:
-To run the ETL pipeline, execute the following command from the root of the project directory:
+To run the ETL pipeline, execute the following command from the app\ directory:
 
 ```
 python -m main.py
