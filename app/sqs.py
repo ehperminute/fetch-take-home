@@ -12,8 +12,10 @@ os.environ["AWS_SECRET_ACCESS_KEY"] = "secret_key"
 sqs = boto3.client("sqs", endpoint_url=ENDPOINT_URL,
                    region_name=REGION)
 
+
 def poll():
     return 'Messages' in sqs.receive_message(QueueUrl=QUEUE_URL)
+
 
 def sqs_get_messages(max_messages = 10):
     response = sqs.receive_message(
@@ -29,6 +31,7 @@ def sqs_get_messages(max_messages = 10):
                 QueueUrl=QUEUE_URL,
                 ReceiptHandle=message["ReceiptHandle"])
     return messages
+
 
 def extract_entries():
     messages = sqs_get_messages()
